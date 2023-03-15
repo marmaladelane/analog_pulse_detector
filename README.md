@@ -10,8 +10,8 @@ disconnect. Thus I need to be able to detect LOW pulses (to ~0V) without
 applying a pullup, as that would disturb the heat meters (and possibly damage
 them).
 
-Configuration is by modifying the sketch and changing the folllowing constants
-defined at the top:
+Configuration is by modifying the [sketch](analog_pulse_detector.ino) and
+changing the following constants defined at the top:
 
 * `DEBUG`: enables debug logging of current values, and additional debugging
   messages/comments.
